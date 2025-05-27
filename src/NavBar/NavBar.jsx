@@ -19,10 +19,10 @@ const NavBar = () => {
                 <div className='hidden md:block uppercase my-6'>
                     <ul className='md:flex md:space-x-8 space-y-8 md:space-y-0 sm:hidden'>
                         <li className='liststy'><Link to={"/"}>Home</Link></li>
-                        <li className='liststy'><Link to={"/shop"}>shop</Link></li>
-                        <li className='liststy'><Link to={"/blog"}>Blog</Link></li>
-                        <li className='liststy'><Link to={"/collections"}>Collections</Link></li>
-                        <li className='liststy'><Link to={"/contact"}>contact</Link></li>
+                        <li className='liststy'><Link to={"/"}>shop</Link></li>
+                        <li className='liststy'><Link to={"/"}>Blog</Link></li>
+                        <li className='liststy'><Link to={"/"}>Collections</Link></li>
+                        <li className='liststy'><Link to={"/"}>contact</Link></li>
                     </ul></div>
                 <div className=' my-6 hidden lg:flex'>
                     <span className='spansty'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
