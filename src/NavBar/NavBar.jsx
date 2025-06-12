@@ -41,10 +41,10 @@ const NavBar = () => {
             </nav>
             <div className={`${show ? 'flex' : 'hidden'} md:hidden sm:flex uppercase bg-slate-500 transform transition ease-in-out duration-500`}><ul className=' flex '>
                 <li className='liststy'><Link to={"/"}>Home</Link></li>
-                <li className='liststy'><Link to={"/shop"}>shop</Link></li>
-                <li className='liststy'><Link to={"/blog"}>Blog</Link></li>
-                <li className='liststy'><Link to={"/collections"}>Collections</Link></li>
-                <li className='liststy'><Link to={"/contact"}>contact</Link></li>
+                <li className='liststy'><Link to={"/"}>shop</Link></li>
+                <li className='liststy'><Link to={"/"}>Blog</Link></li>
+                <li className='liststy'><Link to={"/"}>Collections</Link></li>
+                <li className='liststy'><Link to={"/"}>contact</Link></li>
             </ul></div>
         </>
     )
