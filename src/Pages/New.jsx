@@ -34,16 +34,12 @@ const New = () => {
     }
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [fade, setFade] = useState(true);
-
   useEffect(() => {
     const interval = setInterval(() => {
-      setFade(false);
       setTimeout(() => {
         setCurrentIndex((prevIndex) =>
           (prevIndex + 4) % images.length
         );
-        setFade(true);
       }, 3000);
     }, 3000);
 
